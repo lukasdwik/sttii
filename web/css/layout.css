@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* #Site Styles
+================================================== */
+
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	/*min-width:960px;*/
+}
+
+.page {
+	min-height:100%;
+	position:relative;
+}
+
+
+/* #Page Styles
+================================================== */
+
+.content {
+	/*padding-bottom:400px;*/ /* Height of the footer */
+}
+
+.wrapper_call{
+	padding-bottom:550px; /* Height of the footer */
+}
+
+.wrapper_footer {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	min-height:550px; /* Height of the footer */
+}
+
+
+@media only screen and (min-width: 783px) and (max-width: 974px) {
+.wrapper_call{padding-bottom:550px;}
+.wrapper_footer {min-height:550px;}
+}

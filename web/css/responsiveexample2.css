@@ -1,0 +1,360 @@
+#banner{
+	position: absolute;
+	width:100%;
+}
+
+.homeone{
+/*	background: center top no-repeat #6AAAD5;*/
+	background:center top no-repeat #737475;
+	width: 100%;
+	margin: 0 auto;
+	-webkit-user-select: none;
+}
+
+.oneByOne1{
+	margin:auto;
+	width: 100%;
+	height: 470px;
+	position: relative;
+	overflow: hidden;
+}
+
+#banner .oneByOne_item{
+	position: absolute;
+	width: 100%;
+	height: 470px;
+	overflow: hidden;
+	display: none;
+}
+
+
+.oneByOne1_v2{
+	margin:auto;
+	width: 100%;
+	height: 470px;
+	position: relative;
+	overflow: hidden;
+}
+
+#banner .oneByOne_item_v2{
+	position: absolute;
+	width: 100%;
+	height: 470px;
+	overflow: hidden;
+	display: none;
+}
+
+
+#exampleline{
+	position: relative;
+	margin: 5% 0 0 0;
+}
+
+#banner .oneByOne_item span, #banner .oneByOne_item_v2 span{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", helvetica, verdana, arial, sans-serif;
+}
+
+#banner .oneByOne_item a, #banner .oneByOne_item_v2 a{
+	text-decoration: none;
+	color: #B22222;
+}
+
+#banner .oneByOne_item .tilb, #banner .oneByOne_item_v2 .tilb{
+	font-family:'TitilliumText25L-600wt',Verdana, Geneva, sans-serif;
+
+}
+
+.buttonArea .linealeft{ background:url(img/linealeft.png); width:211px; height:2px; right:120px; bottom:9px; position:absolute;}
+.buttonArea .linearight{ background:url(img/linearight.png); width:211px; height:2px; left:45px; bottom:9px; position:absolute;}
+
+
+#banner .oneByOne_item span.slide2Txt1, #banner .oneByOne_item_v2 span.slide2Txt1{
+	font-family:'titilliumtext25l800_wt',Verdana, Geneva, sans-serif;
+	width:430px;
+  	position: absolute;
+	left:50%;
+	top:60px;
+	margin-left:-476px;
+	color: #fff;
+	font-size: 40px;
+	line-height:38px;
+	text-shadow: 0px -1px rgba(0, 0, 0, 0.20);
+}
+
+#banner .oneByOne_item div.slide2Txt1.changed{
+	width:430px;
+  	position: absolute;
+	left:50%;
+	margin-left:-476px;
+	color: #fff;
+	background:url(img/bg-yellow.png);
+	padding:10px;
+	text-shadow:none;
+	top:73px;
+}
+
+#banner .oneByOne_item div.slide2Txt1.changed .special{
+	font-family:'titilliumtext25l800_wt',Verdana, Geneva, sans-serif;
+	font-size:48px;
+	line-height:48px;
+}
+
+#banner .oneByOne_item span.slide2Txt2, #banner .oneByOne_item_v2 span.slide2Txt2{
+	width:340px;
+  	position: absolute;
+	left:50%;
+	top:165px;
+	margin-left:-476px;
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	line-height:22px;
+	text-shadow: 0px -1px rgba(0, 0, 0, 0.20);
+}
+
+#banner .oneByOne_item span.slide2Txt2.changed{
+	color:#363636;
+	line-height:30px;
+	top:176px;
+}
+
+
+#banner .oneByOne_item span.slide2Txt3, #banner .oneByOne_item_v2 span.slide2Txt3{
+	width:141px;
+	height:38px;
+	background:url(img/learn.png) no-repeat;
+	font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:10px 0 0 30px;
+  	position: absolute;
+	left:50%;
+	top:265px;
+	margin-left:-475px;
+	color: #fff;
+	font-size: 13px;
+	z-index:2;
+	text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.44);
+}
+
+#banner .oneByOne_item span.slide2Txt3.changed{
+	top:300px;
+}
+
+#banner .oneByOne_item span.slide2Txt3:hover, #banner .oneByOne_item_v2 span.slide2Txt3:hover{cursor:pointer; background:url(img/learn2.png) no-repeat; /*color:#000; text-shadow: 0px -1px 1px rgba(200, 200, 200, 0.70);*/}
+
+#banner .oneByOne_item div.bola, #banner .oneByOne_item_v2 div.bola{
+	background:url(img/bola.png) no-repeat;
+	width:82px;
+	height:82px;
+  	position: absolute;
+	top:240px;
+	left:50%;
+	margin-left:-350px;
+	z-index:1;
+}
+
+#banner .oneByOne_item div.circles, #banner .oneByOne_item_v2 div.circles{
+	width:930px;
+	height:336px;
+  	position:absolute;
+	top:43px;
+	left:50%;
+	margin-left:-487px;
+	z-index:1;
+}
+
+
+#banner .oneByOne_item div.woman, #banner .oneByOne_item_v2 div.woman{
+	width:382px;
+	height:409px;
+  	position:absolute;
+	top:10px;
+	left:50%;
+	margin-left:110px;
+	z-index:1;
+}
+
+#banner .oneByOne_item div.macbook, #banner .oneByOne_item_v2 div.macbook{
+  	position: absolute;
+	top:188px;
+	left:50%;
+	margin-left:-184px;
+	z-index:2;
+}
+
+#banner .oneByOne_item div.cinema, #banner .oneByOne_item_v2 div.cinema{
+  	position: absolute;
+	top:43px;
+	left:50%;
+	margin-left:30px;
+	z-index:1;
+}
+
+#banner .oneByOne_item div.ipad, #banner .oneByOne_item_v2 div.ipad{
+  	position: absolute;
+	top:168px;
+	left:50%;
+	margin-left:380px;
+	z-index:2;
+	width:100%;
+}
+
+#banner .oneByOne_item div.iphone, #banner .oneByOne_item_v2 div.iphone{
+  	position: absolute;
+	top:250px;
+	left:50%;
+	margin-left:340px;
+	z-index:3;
+}
+
+#banner .oneByOne_item div.screen1, #banner .oneByOne_item_v2 div.screen1{position: absolute; top:47px; left:50%;	margin-left:-30px; z-index:5;}
+#banner .oneByOne_item div.screen2, #banner .oneByOne_item_v2 div.screen2{position: absolute; top:87px; left:50%;	margin-left:110px; z-index:4;}
+#banner .oneByOne_item div.screen3, #banner .oneByOne_item_v2 div.screen3{position: absolute; top:137px; left:50%;	margin-left:-180px; z-index:3;}
+#banner .oneByOne_item div.screen4, #banner .oneByOne_item_v2 div.screen4{position: absolute; top:255px; left:50%;	margin-left:-240px; z-index:2;}
+#banner .oneByOne_item div.screen5, #banner .oneByOne_item_v2 div.screen5{position: absolute; top:267px; left:50%;	margin-left:340px; z-index:1;}
+#banner .oneByOne_item div.psd, #banner .oneByOne_item_v2 div.psd{position: absolute; top:40px; left:50%;	margin-left:370px; z-index:1;}
+
+#banner .oneByOne_item .contenedor, #banner .oneByOne_item_v2 .contenedor{
+/*	position:relative;
+	margin:auto;*/
+	position:absolute;
+	left:50%;
+}
+
+#banner .oneByOne_item img.bigImage, #banner .oneByOne_item_v2 img.bigImage{
+	position: absolute;
+	top: 0;
+	left: 0;
+/*	width:100%;*/
+	width: auto;
+	max-width: none;
+}
+
+#banner .oneByOne_item span.slide5Txt1, #banner .oneByOne_item_v2 span.slide5Txt1{
+  	position: relative;
+	float: left;
+	margin: 10% 0 0 40%;
+	color: #9ACD32;
+	font-size: 24px;
+	background: #FFFFFF;
+	padding: 8px;
+}
+
+#banner .oneByOne_item span.slide5Txt2, #banner .oneByOne_item_v2 span.slide5Txt2{
+  	position: relative;
+	clear: left;
+	float: left;
+	margin: 12px 0 0 40%;
+	color: #666666;
+	font-size: 12px;
+	background: #FFFFFF;
+	padding: 8px;
+}
+
+.arrowButton .prevArrow{
+	/*top*/
+	background:url(img/sleft2.png) center bottom;
+	width:33px;
+	height:50px;
+	left:20px;
+	opacity:0.5;
+}
+
+.arrowButton .nextArrow{
+	/*top*/
+	background:url(img/sright2.png) center bottom;
+	width:33px;
+	height:50px;
+	right:20px;
+	opacity:0.5;
+}
+
+.oneByOne1_v2 .arrowButton .prevArrow, .oneByOne1_v2 .arrowButton .nextArrow {
+	top:180px;
+}
+
+
+.arrowButton .prevArrow:hover{ background-position:center bottom; opacity:1;}
+.arrowButton .nextArrow:hover{ background-position:center bottom; opacity:1;}
+
+#banner .oneByOne_item .contenedor.img1, #banner .oneByOne_item_v2 .contenedor.img1{margin-left:-1500px;}
+#banner .oneByOne_item .contenedor.img2, #banner .oneByOne_item_v2 .contenedor.img2{margin-left:-1280px;}
+
+@media only screen and (min-width: 783px) and (max-width: 974px) {
+#banner .oneByOne_item .contenedor.img1 img.bigImage, #banner .oneByOne_item_v2 .contenedor.img1 img.bigImage{ width:2500px;}
+#banner .oneByOne_item .contenedor.img2 img.bigImage, #banner .oneByOne_item_v2 .contenedor.img2 img.bigImage{ width:2300px;}
+#banner .oneByOne_item .contenedor.img1, #banner .oneByOne_item_v2 .contenedor.img1{margin-left:-1250px;}
+#banner .oneByOne_item .contenedor.img2, #banner .oneByOne_item_v2 .contenedor.img2{margin-left:-1150px;}
+.oneByOne1{height:360px;}
+.oneByOne1_v2{height:460px;}
+#banner .oneByOne_item div.bola, #banner .oneByOne_item_v2 div.bola{width:82px;	top:175px;	margin-left:-270px;}
+#banner .oneByOne_item div.macbook, #banner .oneByOne_item_v2 div.macbook{width:270px; top:135px;	margin-left:-104px;}
+#banner .oneByOne_item div.cinema, #banner .oneByOne_item_v2 div.cinema{width:318px; top:20px; margin-left:50px;}
+#banner .oneByOne_item div.ipad, #banner .oneByOne_item_v2 div.ipad{width:135px; top:120px;	margin-left:265px;}
+#banner .oneByOne_item div.iphone, #banner .oneByOne_item_v2 div.iphone{width:67px;	top:180px;	margin-left:240px;}
+#banner .oneByOne_item div.woman, #banner .oneByOne_item_v2 div.woman{ width:280px; top:20px; margin-left:100px;}
+#banner .oneByOne_item div.circles, #banner .oneByOne_item_v2 div.circles{ width:700px; top:25px; margin-left:-355px;}
+#banner .oneByOne_item span.slide2Txt1, #banner .oneByOne_item_v2 span.slide2Txt1{top:60px; margin-left:-385px; font-size:20px;}
+#banner .oneByOne_item span.slide2Txt2, #banner .oneByOne_item_v2 span.slide2Txt2{top:105px; margin-left:-385px;}
+#banner .oneByOne_item span.slide2Txt3, #banner .oneByOne_item_v2 span.slide2Txt3{top:200px; margin-left:-395px;}
+
+#banner .oneByOne_item div.screen1, #banner .oneByOne_item_v2 div.screen1{width:272px; top:30px; margin-left:10px;}
+#banner .oneByOne_item div.screen2, #banner .oneByOne_item_v2 div.screen2{width:316px; top:70px; margin-left:130px;}
+#banner .oneByOne_item div.screen3, #banner .oneByOne_item_v2 div.screen3{width:227px; top:110px; margin-left:-115px;}
+#banner .oneByOne_item div.screen4, #banner .oneByOne_item_v2 div.screen4{width:178px; top:210px; margin-left:-180px;}
+#banner .oneByOne_item div.screen5, #banner .oneByOne_item_v2 div.screen5{width:180px; top:220px; margin-left:310px;}
+#banner .oneByOne_item div.psd{width:107px; top:20px; margin-left:310px;}
+
+.arrowButton .prevArrow{display:none; top:-100px;}
+.arrowButton .nextArrow{display:none; top:-100px;}
+}
+
+@media only screen and (max-width: 782px) {
+#banner .oneByOne_item .contenedor.img1 img.bigImage, #banner .oneByOne_item_v2 .contenedor.img1 img.bigImage{ width:1500px;}
+#banner .oneByOne_item .contenedor.img2 img.bigImage, #banner .oneByOne_item_v2 .contenedor.img2 img.bigImage{ width:1400px;}
+#banner .oneByOne_item .contenedor.img1, #banner .oneByOne_item_v2 .contenedor.img1{margin-left:-750px;}
+#banner .oneByOne_item .contenedor.img2, #banner .oneByOne_item_v2 .contenedor.img2{margin-left:-700px;}
+.oneByOne1{height:260px;}
+.oneByOne1_v2{height:360px;}
+#banner .oneByOne_item div.bola, #banner .oneByOne_item_v2 div.bola{width:82px;	top:125px;	margin-left:-30px;}
+#banner .oneByOne_item div.macbook,#banner .oneByOne_item_v2 div.macbook{width:135px; top:125px; margin-left:40px;}
+#banner .oneByOne_item div.cinema, #banner .oneByOne_item_v2 div.cinema{width:159px; top:60px; margin-left:80px;}
+#banner .oneByOne_item div.ipad, #banner .oneByOne_item_v2 div.ipad{width:67px; top:120px; margin-left:165px;}
+#banner .oneByOne_item div.iphone, #banner .oneByOne_item_v2 div.iphone{width:33px; top:150px; margin-left:155px;}
+#banner .oneByOne_item div.woman, #banner .oneByOne_item_v2 div.woman{ width:150px; top:50px; margin-left:25px;}
+#banner .oneByOne_item div.circles, #banner .oneByOne_item_v2 div.circles{ width:300px; top:47px; margin-left:-150px;}
+#banner .oneByOne_item span.slide2Txt1, #banner .oneByOne_item_v2 span.slide2Txt1{top:20px; margin-left:-150px; font-size:16px;}
+#banner .oneByOne_item span.slide2Txt2, #banner .oneByOne_item_v2 span.slide2Txt2{top:65px; margin-left:-150px; font-size:12px; width:240px;}
+#banner .oneByOne_item span.slide2Txt3, #banner .oneByOne_item_v2 span.slide2Txt3{top:150px; margin-left:-150px;}
+
+#banner .oneByOne_item div.screen1, #banner .oneByOne_item_v2 div.screen1{width:82px; top:80px; margin-left:70px;}
+#banner .oneByOne_item div.screen2, #banner .oneByOne_item_v2 div.screen2{width:95px; top:90px; margin-left:110px;}
+#banner .oneByOne_item div.screen3, #banner .oneByOne_item_v2 div.screen3{width:80px; top:110px; margin-left:20px;}
+#banner .oneByOne_item div.screen4, #banner .oneByOne_item_v2 div.screen4{width:72px; top:150px; margin-left:0px;}
+#banner .oneByOne_item div.screen5, #banner .oneByOne_item_v2 div.screen5{width:54px; top:150px; margin-left:165px;}
+#banner .oneByOne_item div.psd, #banner .oneByOne_item_v2 div.psd{width:70px; top:20px; margin-left:150px;}
+
+.arrowButton .prevArrow{display:none; top:-100px;}
+.arrowButton .nextArrow{display:none; top:-100px;}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 782px) {
+	#banner .oneByOne_item div.bola, #banner .oneByOne_item_v2 div.bola{width:82px;	top:130px; margin-left:-90px;}
+	#banner .oneByOne_item div.macbook, #banner .oneByOne_item_v2 div.macbook{width:135px; top:125px; margin-left:-44px;}
+	#banner .oneByOne_item div.cinema, #banner .oneByOne_item_v2 div.cinema{width:159px; top:60px; margin-left:50px;}
+	#banner .oneByOne_item div.ipad, #banner .oneByOne_item_v2 div.ipad{width:67px; top:120px; margin-left:165px;}
+	#banner .oneByOne_item div.iphone, #banner .oneByOne_item_v2 div.iphone{width:33px; top:150px; margin-left:155px;}
+	#banner .oneByOne_item div.woman, #banner .oneByOne_item_v2 div.woman{ width:180px; top:27px; margin-left:40px;}
+	#banner .oneByOne_item div.circles, #banner .oneByOne_item_v2 div.circles{ width:400px; top:25px; margin-left:-200px;}
+	#banner .oneByOne_item span.slide2Txt1, #banner .oneByOne_item_v2 span.slide2Txt1{top:20px; margin-left:-210px; font-size:16px;}
+	#banner .oneByOne_item span.slide2Txt2, #banner .oneByOne_item_v2 span.slide2Txt2{top:65px; margin-left:-210px; font-size:12px; width:240px;}
+	#banner .oneByOne_item span.slide2Txt3, #banner .oneByOne_item_v2 span.slide2Txt3{top:150px; margin-left:-210px;}
+
+	#banner .oneByOne_item div.screen1, #banner .oneByOne_item_v2 div.screen1{width:136px; top:50px; margin-left:70px;}
+	#banner .oneByOne_item div.screen2, #banner .oneByOne_item_v2 div.screen2{width:158px; top:70px; margin-left:150px;}
+	#banner .oneByOne_item div.screen3, #banner .oneByOne_item_v2 div.screen3{width:113px; top:100px; margin-left:-10px;}
+	#banner .oneByOne_item div.screen4, #banner .oneByOne_item_v2 div.screen4{width:89px; top:150px; margin-left:-40px;}
+	#banner .oneByOne_item div.screen5, #banner .oneByOne_item_v2 div.screen5{width:90px; top:150px; margin-left:250px;}
+	#banner .oneByOne_item div.psd, #banner .oneByOne_item_v2 div.psd{width:70px; top:20px; margin-left:210px;}
+}

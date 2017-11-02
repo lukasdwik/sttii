@@ -1,0 +1,518 @@
+ <!DOCTYPE HTML>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+
+  <meta charset="utf-8"><!--  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
+ <!--[if ie]><meta content='IE=8' http-equiv='X-UA-Compatible'/><![endif]-->
+
+  <title></title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link rel="stylesheet" href="css/reset.css" type="text/css" >
+  <link rel="stylesheet" href="css/skeleton.css" type="text/css"/>
+  <link rel="stylesheet" href="css/zenite.css" type="text/css" media="screen"/>
+  <link rel="stylesheet" href="css/layout.css" type="text/css" media="screen"/>
+  <link rel="stylesheet" href="css/media_queries.css" type="text/css" media="screen"/>
+  <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="jquery.mb.menu.2.8.5/css/menu_black.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+   <!--[if lte IE 6]>
+		<link rel="stylesheet" href="//universal-ie6-css.googlecode.com/files/ie6.1.1.css" media="screen, projection">
+   <![endif]-->
+</head>
+<body>
+
+   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+   <div class="page">
+
+       <div class="wrapper_header">
+
+            <div class="container cabecera">
+
+<header class="clearfix">
+
+    <div class="light"></div>
+
+    <div class="columns six logo"><a href="index.html"><img src="css/img/logo_pro.png" alt="Zenite"/></a></div>
+
+    <!-- menu -->
+    <nav class="columns ten menu myMenu">
+        <ul class="navegation">
+            <li class="rootVoice {menu: 'menu_1'}"><span class="navcurrent_left"></span><a href="index.html">Home</a><span class="navcurrent_right"></span></li>
+            <li class="rootVoice {menu: 'menu_2'} active"><span class="navcurrent_left"></span><a href="services.html">Pages</a><span class="navcurrent_right"></span></li>
+            <li class="rootVoice {menu: 'menu_3'}"><span class="navcurrent_left"></span><a href="portfolio.html">Portfolio</a><span class="navcurrent_right"></span></li>
+            <li class="rootVoice {menu: 'menu_4'}"><span class="navcurrent_left"></span><a href="blog.html">Blog</a><span class="navcurrent_right"></span></li>
+            <li class="rootVoice {menu: 'menu_5'}"><span class="navcurrent_left"></span><a href="elements.html">Features</a><span class="navcurrent_right"></span></li>
+	        <li class="lineamenu" id="nil91"></li>
+        </ul>
+        <select class="navegation_resp">
+            <option value="" selected="selected">Go to...</option>
+            <option value="index.html" class="main_item">Home</option>
+            <option value="services.html" class="main_item">Pages</option>
+	            <option value="about.html" class="second_item">About</option>
+	            <option value="team.html" class="second_item">Team</option>
+	            <option value="faq.html" class="second_item">faq</option>
+	            <option value="404.html" class="second_item">404</option>
+	            <option value="contact.html" class="second_item">Contact</option>
+            <option value="portfolio.html" class="main_item">Portfolio</option>
+	            <option value="portfolio2col.html" class="second_item">2 Column</option>
+	            <option value="portfolio4col.html" class="second_item">4 Column</option>
+	            <option value="portfolio-view.html" class="second_item">Single Project</option>
+            <option value="blog.html" class="main_item">Blog</option>
+				<option value="blog_interior.html" class="second_item">Single Project</option>
+            <option value="elements.html" class="main_item">Features</option>
+	            <option value="columns.html" class="second_item">Columns</option>
+        </select>
+    </nav>
+</header>
+
+  <!-- menues -->  <div id="menu_1" class="mbmenu">
+    <a href="index.html">Home 1</a>
+    <a class="separator"> </a>
+    <a href="home2.html">Home 2</a>
+    <a class="separator"> </a>
+    <a href="home3.html">Home 3</a>
+    <a class="separator"> </a>
+    <a href="home4.html">Home 4</a>
+  </div><div id="menu_2" class="mbmenu">
+    <a href="services.html">Services</a>
+    <a class="separator"> </a>
+    <a href="about.html">About Us</a>
+    <a class="separator"> </a>
+    <a href="team.html">Team</a>
+    <a class="separator"> </a>
+    <a href="blog2.html">Left sidebar page</a>
+    <a class="separator"> </a>
+    <a href="sidebar.html">Right sidebar page</a>
+    <a class="separator"> </a>
+    <a href="faq.html">FAQ</a>
+    <a class="separator"> </a>
+    <a href="404.html">404</a>
+    <a class="separator"> </a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div id="menu_3" class="mbmenu">
+    <a href="portfolio2col.html" class="{}">2 Column</a>
+    <a class="separator"> </a>
+    <a href="portfolio.html" class="{}">3 Column</a>
+    <a class="separator"> </a>
+    <a href="portfolio4col.html" class="{}">4 Column</a>
+    <a class="separator"> </a>
+    <a href="portfolio-view.html" class="{}">Single Project</a>
+  </div>
+
+  <div id="menu_4" class="mbmenu">
+    <a href="blog.html" class="{}">Blog</a>
+    <a class="separator"> </a>
+    <a href="blog_interior.html" class="{}">Single Post</a>
+  </div>
+
+  <div id="sub_menu_1" class="mbmenu">
+    <a>Item One</a>
+    <a class="separator"> </a>
+    <a>Item Two</a>
+    <a class="separator"> </a>
+    <a>Item Three</a>
+  </div>  <div id="menu_5" class="mbmenu">
+    <a href="elements.html">Elements</a>
+    <a class="separator"> </a>
+    <a href="columns.html">Columns</a>
+    <a class="separator"> </a>
+    <a href="pricing.html">Pricing Tables</a>
+    <a class="separator"> </a>
+    <a class="{menu: 'sub_menu_1'}">Multi-Level Menu</a>
+  </div>
+
+  <!-- end menus -->
+
+
+              </div>
+
+       </div>
+
+       <div class="bg-menu">
+        <nav class="primary clearfix container">
+				<div class="titol"><span class="slim">Pages</span> / <span class="blau">About Us</span></div>
+                <div class="search"><input id="search" name="search" type="text" value="search"  /></div>
+		</nav>
+       </div>
+
+      <!-- content -->
+      <div class="bg-white"><div class="shadow_top"></div>
+      <section class="container content">
+
+		<div class="about">
+				<article class="column sixteen columns">
+                    <div class="titular extra">
+                        <h2>Pages <span>/ About Us</span></h2>
+                        <div class="sp_doble special"></div>
+                    </div>
+
+                    <div class="title">The experiential, affective, meaningful and valuable aspects of human-computer interaction and product ownership.</div>
+                    <div class="bottomline"></div>
+						<div class="section">
+
+                        	<div class="image">
+                               <div class="flexslider4">
+                                    <ul class="slides">
+                                        <li><img src="css/img/about02.jpg" alt="img"></li>
+                                        <li><img src="css/img/about01.jpg" alt="img"></li>
+                                        <li><img src="css/img/about03.jpg" alt="img"></li>
+                                    </ul>
+                               </div>
+                            </div>
+
+                        	<div class="text">
+                            	<span class="title">Smart, Agile, Imaginative</span><br><br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo tristique odio, quis fringilla ligula aliquet ut. Maecenas sed justo varius velit imperdiet bibendum. Vivamus nec sapien massa, a imperdiet diam. Aliquam erat volutpat. log in to the forums, and a nunc et rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </div>
+                        </div>
+
+					<div class="clearfix" id="nimb17"></div>
+
+                    <div class="titular">
+                        <h2>More <span>Services</span></h2>
+                        <div class="sp_doble total"></div>
+                    </div>
+
+                    	<ul class="iconos">
+                        	<li>
+                            	<div class="icono"><img src="css/img/cloud.png" alt="img"></div>
+                                <div class="title">Research</div>
+                                <div class="text">Donec id elit non mi port gra vidaget metus. Morbi leo porta Cras justo odio.</div>
+                            </li>
+                        	<li>
+                            	<div class="icono"><img src="css/img/clock.png" alt="img"></div>
+                                <div class="title">Design</div>
+                                <div class="text">Donec id elit non mi port gra vidaget metus. Morbi leo porta Cras justo odio.</div>
+                            </li>
+                        	<li>
+                            	<div class="icono"><img src="css/img/develop.png" alt="img"></div>
+                                <div class="title">Develop</div>
+                                <div class="text">Donec id elit non mi port gra vidaget metus. Morbi leo porta Cras justo odio.</div>
+                            </li>
+                        	<li id="nimr0">
+                            	<div class="icono"><img src="css/img/deliver.png" alt="img"></div>
+                                <div class="title">Deliver</div>
+                                <div class="text">Donec id elit non mi port gra vidaget metus. Morbi leo porta Cras justo odio.</div>
+                            </li>
+                        </ul>
+
+
+					<div class="clearfix" id="nimb49"></div>
+                    <div class="titular">
+                        <h2>Our <span>Expertice</span></h2>
+                        <div class="sp_doble total"></div>
+                    </div>
+
+                    	<ul class="iconos circles">
+							<li><img src="css/img/red.png" alt="img"></li>
+                            <li><img src="css/img/blue.png" alt="img"></li>
+                        	<li><img src="css/img/grey.png" alt="img"></li>
+                        	<li><img src="css/img/yellow.png" alt="img"></li>
+                            <li class="diagram">Services Diagram<br><br>
+							<div class="cuadre"><img src="css/img/cg.png" alt="img"></div>CSS3<br>
+                            <div class="cuadre"><img src="css/img/cr.png" alt="img"></div>HTML5<br>
+                            <div class="cuadre"><img src="css/img/cv.png" alt="img"></div>html<br>
+                            <div class="cuadre"><img src="css/img/cro.png" alt="img"></div>MySQL
+                            </li>
+                        </ul>
+
+
+					<div class="clearfix" id="nimb41"></div>
+
+                    <div class="sect-left">
+                        <div class="titular">
+                            <h2>Why <span>Choose us</span></h2>
+                            <div class="sp_doble half"></div>
+                        </div>
+
+                        <div class="faq">
+                            <div class="item">
+                            	<div class="question qopen"><div class="icon"></div>Randomised words which don't look even.</div>
+                                <div class="answer">Variations of passages of Lorem Ipsum available, but the majority suffered alteration in loft some form, by injected humour, or randomised words which don't look. Even slightly believable. Be sure there isn't anything embarrassing hidden middle of text. </div>
+                            </div>
+                            <div class="item">
+                            	<div class="question qclosed"><div class="icon"></div>Majority have alteration in some form.</div>
+                                <div class="answer none">Variations of passages of Lorem Ipsum available, but the majority suffered alteration in loft some form, by injected humour, or randomised words which don't look. Even slightly believable. Be sure there isn't anything embarrassing hidden middle of text. </div>
+                            </div>
+                            <div class="item">
+                            	<div class="question qclosed"><div class="icon"></div>Randomised words which don't look even.</div>
+                                <div class="answer none">Variations of passages of Lorem Ipsum available, but the majority suffered alteration in loft some form, by injected humour, or randomised words which don't look. Even slightly believable. Be sure there isn't anything embarrassing hidden middle of text. </div>
+                            </div>
+                            <div class="item">
+                            	<div class="question qclosed"><div class="icon"></div>Randomised words which don't look even.</div>
+                                <div class="answer none">Variations of passages of Lorem Ipsum available, but the majority suffered alteration in loft some form, by injected humour, or randomised words which don't look. Even slightly believable. Be sure there isn't anything embarrassing hidden middle of text. </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sect-right">
+						<div class="titular" id="niml12">
+                            <h2>Careers</h2>
+                            <div class="sp_doble small"></div>
+                        </div>
+
+                        <div class="hiring">
+                        	<div class="t1">We are hiring!</div>
+                            <div class="t2">We are offering great oppurtunites for Project and Marketing.</div>
+                            <div class="t3">More info</div>
+                        </div>
+                        <div class="offer">
+                        	<div class="t1">New Offer!</div>
+                            <div class="t2">We are offering great oppurtunites for Project and Marketing.</div>
+                            <div class="t3">More info</div>
+                        </div>
+
+
+                    </div>
+
+					<div class="clearfix"></div>
+                    <div id="nih33"></div>
+
+				</article>
+
+		</div>
+
+
+     </section>
+     <div class="call-shadow-top"></div>
+     </div><div class="wrapper_call clearfix">
+
+            <div class="separa_big"></div>
+
+            <div class="container clearfix">
+
+                <p class="columns six telf"><img src="css/img/bocadillo.png" id="nimtm3" alt="img"/><span><strong>Call us!</strong> <span class="slim">+1 200 123 456</span></span></p>
+
+                <div class="columns three rrss ">
+                	<a href="#" class="twitter"></a>
+                    <a href="#" class="facebook"></a>
+                </div>
+
+                <div class="columns seven register">
+               		<form action="#" method="post" id="register">
+                    	<input type="email" name="email" id="email" placeholder="Enter your email address"/>
+                        <a href="#" class="button_register" title="Button Text" target="_self" ></a>
+                    </form>
+
+                </div>
+            </div>
+
+      </div><div class="wrapper_footer">
+      	<div class="detall"></div>
+        <div class="bgtwitter"></div>
+
+            <footer class="container clearfix">
+
+                <article class="column one-third article first">
+	                <div class="title">Blog <span class="slim">Entries</span></div>
+                    <div class="separador left"></div>
+                    <a href="#"><div class="bloc2">
+                        <div class="date">22<br><span class="month">JUN</span></div>
+                        <div class="info">Lorem ipsum dolor sit amet <br><span class="white">consectetur adipisicing elit sed do</span> </div>
+					</div></a>
+					<div class="separa3"></div>
+                    <a href="#"><div class="bloc2">
+					<div class="date">14<br><span class="month">MAY</span></div>
+	                <div class="info">Lorem ipsum dolor sit amet <br><span class="white">consectetur adipisicing elit sed do</span> </div>
+                    </div></a>
+                    <div class="separa3"></div>
+                    <a href="#"><div class="bloc2">
+					<div class="date">11<br><span class="month">MAY</span></div>
+	                <div class="info">Lorem ipsum dolor sit amet <br><span class="white">consectetur adipisicing elit sed do</span> </div>
+					</div></a>
+					<div class="separa3"></div>
+                    <a href="#"><div class="bloc2">
+                    <div class="date">08<br><span class="month">APR</span></div>
+	                <div class="info">Lorem ipsum dolor sit amet <br><span class="white">consectetur adipisicing elit sed do</span> </div>
+                    </div></a>
+                    <div id="nih1"></div>
+                    <div class="separador2"></div>
+                    <div class="undertitle">Go to <span class="slim"><a href="blog.html" title="blog">Blog</a></span></div>
+                </article>
+
+                <article class="column one-third article bg">
+                	<div class="title">Twitter <span class="slim">Feed</span></div>
+                    <div class="separador mid"></div>
+                    <div class="bloc">
+                        <div class="tweet"></div>
+                        <div class="info2">
+                            <a href="#">@StephenCronin</a> <span class="grey">Weekly Inspiration</span>
+                            <br><a href="#">http://t.co/zl.cpwd</a>
+                            <br><span class="blue">about 2 hours ago</span>
+                        </div>
+                    </div>
+					<div class="separa3"></div>
+                    <div class="bloc">
+                        <div class="tweet"></div>
+                        <div class="info2">
+                            <a href="#">@StephenCronin</a> <span class="grey">Weekly Inspiration</span>
+                            <br><a href="#">http://t.co/zl.cpwd</a>
+                            <br><span class="blue">about 2 hours ago</span>
+                        </div>
+                    </div>
+					<div class="separa3"></div>
+                    <div class="bloc">
+                        <div class="tweet"></div>
+                        <div class="info2">
+                            <a href="#">@StephenCronin</a> <span class="grey">Weekly Inspiration</span>
+                            <br><a href="#">http://t.co/zl.cpwd</a>
+                            <br><span class="blue">about 2 hours ago</span>
+                        </div>
+					</div>
+                    <div class="separador2"></div>
+                	<div class="undertitle">Follow me on <span class="slim"><a href="https://twitter.com/" title="twitter" target="_blank">Twitter</a></span></div>
+                </article>
+
+                <article class="column one-third article flic last">
+                	<div class="title">Photo <span class="slim">Stream</span></div>
+                    <div class="separador right" id="nimb26"></div>
+                    <a class="fancy" href="http://farm7.staticflickr.com/6021/6017751593_83ffa144ba_b.jpg"><div class="flickr"><img src="css/img/flicktest.jpg" alt="img" /></div></a>
+                    <a class="fancy" href="http://farm6.staticflickr.com/5257/5458307047_55e83427bb_b.jpg"><div class="flickr"><img src="css/img/flicktest2.jpg" alt="img" /></div></a>
+                    <a class="fancy" href="http://farm6.staticflickr.com/5122/5213503459_d7cb5a241e_b.jpg"><div class="flickr"><img src="css/img/flicktest3.jpg" alt="img" /></div></a>
+                    <a class="fancy" href="http://farm5.staticflickr.com/4003/4667503306_66052dd3d7_b.jpg"><div class="flickr"><img src="css/img/flicktest4.jpg" alt="img" /></div></a>
+                    <a class="fancy" href="http://farm4.staticflickr.com/3316/3221413896_07e3c3073c_o.jpg"><div class="flickr"><img src="css/img/flicktest5.jpg" alt="img" /></div></a>
+                    <a class="fancy" href="http://farm3.staticflickr.com/2101/2487064919_e0f8f0afd2_b.jpg"><div class="flickr"><img src="css/img/flicktest6.jpg" alt="img" /></div></a>
+                    <a class="fancy" href="http://farm6.staticflickr.com/5124/5362081930_0ef30ee2b9_b.jpg"><div class="flickr"><img src="css/img/flicktest7.jpg" alt="img" /></div></a>
+                    <a class="fancy" href="http://farm4.staticflickr.com/3356/3430174742_a3da7dc2c4_o.jpg"><div class="flickr"><img src="css/img/flicktest8.jpg" alt="img" /></div></a>
+                    <a class="fancy" href="http://farm5.staticflickr.com/4081/5432817473_2936e47981_b.jpg"><div class="flickr"><img src="css/img/flicktest9.jpg" alt="img" /></div></a>
+
+                </article>
+
+            </footer>
+
+            <div class="wrapper_copyright">
+            	<div class="container" id="nimtm5">
+                    <p class="copy_left">© 2013 <span class="white">ZENITE</span>. ALL RIGHTS RESERVED. </p>                    <p class="copy_right"><span class="social">We are social:</span></p>
+                        <div class="icones">
+                            <div class="social twit"></div>
+                            <div class="social face"></div>
+                            <div class="social vime"></div>
+                            <div class="social yout"></div>
+                            <div class="social skyp"></div>
+                        </div></div>
+            </div>
+      </div>
+
+  </div>
+
+<!--[if !lte IE 6]><!-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+	<!--[if lt IE 9]> <script src="js/libs/selectivizr-and-extra-selectors.min.js"></script> <![endif]-->
+	<script src="js/respond.min.js"></script>
+	<script src="js/jquery.easing-1.3.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+	<script src="js/custom.js"></script>
+  <!--<![endif]-->
+
+	<script type="text/javascript" src="jquery.mb.menu.2.8.5/inc/jquery.metadata.js"></script>
+	<script type="text/javascript" src="jquery.mb.menu.2.8.5/inc/jquery.hoverIntent.js"></script>
+	<script type="text/javascript" src="jquery.mb.menu.2.8.5/inc/mbMenu.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("a.fancy").fancybox();
+		});
+	</script>
+
+  <script type="text/javascript">
+
+  $(function(){
+    $(".myMenu").buildMenu(
+    {
+      template:"menuVoices.html",
+      additionalData:"pippo=1",
+      menuWidth:200,
+      openOnRight:false,
+      menuSelector: ".menuContainer",
+      iconPath:"jquery.mb.menu.2.8.5/ico/",
+      hasImages:true,      fadeInTime:0,
+      fadeOutTime:0,
+      adjustLeft:2,
+      minZindex:"auto",
+      adjustTop:10,
+      opacity:1,
+      shadow:false,
+      shadowColor:"#ccc",
+      hoverIntent:0,
+      openOnClick:false,
+      closeOnMouseOut:true,
+      closeAfter:0,
+      submenuHoverIntent:200
+    });
+  });
+
+  //this function get the id of the element that fires the context menu.
+  function testForContextMenu(el){
+    if (!el) el= $.mbMenu.lastContextMenuEl;
+    alert("the ID of the element is:   "+$(el).attr("id"));
+  }
+
+  function recallcMenu(el){
+    if (!el) el= $.mbMenu.lastContextMenuEl;
+    var cmenu=+$(el).attr("cmenu");
+    $(cmenu).remove();
+  }
+
+  function showMessage(msg){
+    var msgBox=$("<div>").addClass("msgBox");
+    $("body").append(msgBox);
+    msgBox.append("You click on: <br>"+msg);
+    setTimeout(function(){msgBox.fadeOut(500,function(){msgBox.remove();})},3000)
+  }
+
+</script>
+
+    <script defer src="js/jquery.flexslider-min.js"></script>
+
+	<script type="text/javascript">
+    $(window).load(function(){
+
+    $('.flexslider4').flexslider({
+        animation: "slide",
+		directionNav: false,
+		controlNav: true,
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+
+    });
+  </script>
+
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+<script src="js/modernizr.custom.76532.js"></script>
+  <!--<script src="js/tabs.js"></script> --> <!-- tabs skeleton-->
+
+
+  <!--[if lt IE 7 ]>
+     <script type="text/javascript" src="http://widgetfx.googlecode.com/svn-history/r122/widgetfx.org/iepngfix_tilebg.js"></script>
+  <![endif]-->
+
+
+  <!-- GA -->
+  <script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+
+</body>
+
+</html>
