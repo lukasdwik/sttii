@@ -65,11 +65,11 @@
     <!-- menu -->
     <nav class="columns ten menu myMenu">
         <ul class="navegation">
-            <li class="rootVoice {menu: 'menu_1'} active"><span class="navcurrent_left"></span><a href="index.html">Home</a><span class="navcurrent_right"></span></li>
-            <li class="rootVoice {menu: 'menu_2'}"><span class="navcurrent_left"></span><a href="services.html">Pages</a><span class="navcurrent_right"></span></li>
-            <li class="rootVoice {menu: 'menu_3'}"><span class="navcurrent_left"></span><a href="portfolio.html">Portfolio</a><span class="navcurrent_right"></span></li>
-            <li class="rootVoice {menu: 'menu_4'}"><span class="navcurrent_left"></span><a href="blog.html">Blog</a><span class="navcurrent_right"></span></li>
-            <li class="rootVoice {menu: 'menu_5'}"><span class="navcurrent_left"></span><a href="elements.html">Features</a><span class="navcurrent_right"></span></li>
+            <li class="active"><span class="navcurrent_left"></span><a href="index.php">Home</a><span class="navcurrent_right"></span></li>
+            <li class="rootVoice {menu: 'about'}"><span class="navcurrent_left"></span><a href="about.php">Tentang STTII</a><span class="navcurrent_right"></span></li>
+            <li class="rootVoice {menu: 'department'}"><span class="navcurrent_left"></span><a href="department.php">Program Studi</a><span class="navcurrent_right"></span></li>
+            <li class="rootVoice {menu: 'campus'}"><span class="navcurrent_left"></span><a href="campus.php">Kampus STTII </a><span class="navcurrent_right"></span></li>
+            <li class="rootVoice {menu: 'features'}"><span class="navcurrent_left"></span><a href="features.php">Fitur</a><span class="navcurrent_right"></span></li>
 	        <li class="lineamenu"></li>
         </ul>
         <select class="navegation_resp">
@@ -94,64 +94,67 @@
 </header>
 
   <!-- menues -->
-  <div id="menu_1" class="mbmenu">
-    <a href="index.html">Home 1</a>
+
+  <div id="about" class="mbmenu">
+    <a href="about-history.php">Sejarah</a>
     <a class="separator"> </a>
-    <a href="home2.html">Home 2</a>
+    <a href="about-visimisi.php">Visi dan Misi</a>
     <a class="separator"> </a>
-    <a href="home3.html">Home 3</a>
+    <a href="about-credo.php">Pernyataan Iman</a>
     <a class="separator"> </a>
-    <a href="home4.html">Home 4</a>
+    <a href="about-lecturer.php">Profil Pengajar</a>
   </div>
 
-  <div id="menu_2" class="mbmenu">
-    <a href="services.html">Services</a>
+  <div id="sub_menu_sarjana" class="mbmenu">
+    <a href="department-sarjana-teologi.php">S1 Teologi Kependetaan</a>
     <a class="separator"> </a>
-    <a href="about.html">About Us</a>
+    <a href="department-sarjana-pak.php">S1 Pendidikan Agama Kristen</a>
+  </div>  <div id="sub_menu_pascasarjana" class="mbmenu">
+    <a href="department-pascasarjana-teologi.php">S2 Teologi</a>
+  </div>  <div id="department" class="mbmenu">
+    <a class="{menu: 'sub_menu_sarjana'}">Sarjana</a>
     <a class="separator"> </a>
-    <a href="team.html">Team</a>
-    <a class="separator"> </a>
-    <a href="blog2.html">Left sidebar page</a>
-    <a class="separator"> </a>
-    <a href="sidebar.html">Right sidebar page</a>
-    <a class="separator"> </a>
-    <a href="faq.html">FAQ</a>
-    <a class="separator"> </a>
-    <a href="404.html">404</a>
-    <a class="separator"> </a>
-    <a href="contact.html">Contact</a>
+    <a class="{menu: 'sub_menu_pascasarjana'}">Pasca Sarjana</a>
   </div>
 
-  <div id="menu_3" class="mbmenu">
-    <a href="portfolio2col.html" class="{}">2 Column</a>
+  <div id="sub_menu_facilities" class="mbmenu">
+    <a href="campus-facilities-classroom.php">Ruang Kelas</a>
     <a class="separator"> </a>
-    <a href="portfolio.html" class="{}">3 Column</a>
+    <a href="campus-facilities-library.php">Perpustakaan</a>
     <a class="separator"> </a>
-    <a href="portfolio4col.html" class="{}">4 Column</a>
+    <a href="campus-facilities-link.php">Kerjasama</a>
     <a class="separator"> </a>
-    <a href="portfolio-view.html" class="{}">Single Project</a>
+    <a href="campus-facilities-scholarship.php">Beasiswa</a>
+  </div>  <div id="sub_menu_unitbiro" class="mbmenu">
+    <a href="campus-unitbiro-litbang.php">Pusat Riset dan Pengembangan</a>
+    <a class="separator"> </a>
+    <a href="campus-unitbiro-humas.php">Hubungan Masyarakat</a>
+  </div>  <div id="sub_menu_community" class="mbmenu">
+    <a href="campus-community-hima.php">Himpunan Mahasiswa</a>
+    <a class="separator"> </a>
+    <a href="/kalustya/index.php">Alumni (KALUSTYA)</a>
+  </div>  <div id="campus" class="mbmenu">
+    <a class="{menu: 'sub_menu_facilities'}">Fasilitas</a>
+    <a class="separator"> </a>
+    <a class="{menu: 'sub_menu_unitbiro'}">Unit dan Biro</a>
+    <a class="separator"> </a>
+    <a class="{menu: 'sub_menu_community'}">Komunitas</a>
   </div>
 
-  <div id="menu_4" class="mbmenu">
-    <a href="blog.html" class="{}">Blog</a>
+  <div id="sub_menu_admission" class="mbmenu">
+    <a href="features-admission-schedule.php">Jadwal Admisi</a>
     <a class="separator"> </a>
-    <a href="blog_interior.html" class="{}">Single Post</a>
-  </div>
-
-  <div id="sub_menu_1" class="mbmenu">
-    <a>Item One</a>
+    <a href="features-admission-syarat.php">Persyaratan Pendaftaran</a>
     <a class="separator"> </a>
-    <a>Item Two</a>
+    <a href="features-admission-form.php">Isi Formulir Pendaftaran</a>
+  </div>  <div id="features" class="mbmenu">
+    <a href="features-agenda.php">Agenda</a>
     <a class="separator"> </a>
-    <a>Item Three</a>
-  </div>  <div id="menu_5" class="mbmenu">
-    <a href="elements.html">Elements</a>
+    <a href="features-schedule.php">Jadwal Kelas</a>
     <a class="separator"> </a>
-    <a href="columns.html">Columns</a>
+    <a href="features-sylabus.php">Silabus</a>
     <a class="separator"> </a>
-    <a href="pricing.html">Pricing Tables</a>
-    <a class="separator"> </a>
-    <a class="{menu: 'sub_menu_1'}">Multi-Level Menu</a>
+    <a class="{menu: 'sub_menu_admission'}">Admisi</a>
   </div>
 
   <!-- end menus -->
@@ -249,14 +252,12 @@
 			</div>
 
             <div class="container">
-<div class="icon3"><img src="css/img/success-icon2.png" alt="img"/></div>
-
-<h1>We build cool themes<span class="remercar"> very easy</span> to manage.</h1>
-
+                <div class="icon3"><img src="css/img/success-icon2.png" alt="img"/></div>
+                <h1>We build cool themes<span class="remercar"> very easy</span> to manage.</h1>
                 <h2>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui...</h2>
 	            <div class="image2"></div>
 			</div>
-  <div class="container">
+            <div class="container">
             	<div class="icon2"><img src="css/img/success-icon3.png" alt="img"/></div>
                 <h1>Zenite is powered with the new web standards <span class="remercar">HTML5</span> & <span class="remercar">CSS3</span></h1>
                 <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum...</h2>
@@ -275,13 +276,13 @@
            </div>-->
 
 
-<div class="moduls clearfix">
+           <div class="moduls clearfix">
 
 			   <div class="flecha_home"></div>
 
                <article class="column one-third article activo">
                		<div class="leftal" id="nipr">
-<div class="title"><span class="remarcar">Responsive</span> Layout</div>
+                    <div class="title"><span class="remarcar">Event</span> One</div>
 
                     <div class="separa"></div>
                     <div class="imagen"><div class="new"></div><div class="hover"><a href="portfolio-view.html"><div class="link"></div></a></div><img src="css/img/img6.jpg" alt="img1"></div>
@@ -291,7 +292,7 @@
 
                <article class="column one-third article">
 	                <div class="cental">
-					<div class="title"><span class="remarcar">Easy</span> Customization</div>
+					<div class="title"><span class="remarcar">Event</span> Two</div>
                     <div class="separa"></div>
                     <div class="imagen"><div class="new"></div><div class="hover"><a href="portfolio-view.html"><div class="link"></div></a></div><img src="css/img/img4.jpg" alt="img1"></div>
                     <p><b>Lorem ipsum</b> dolor sit amet, consectetur adipiscing elit. Integer commodo tristique commodo tristique.</p>
@@ -300,7 +301,40 @@
 
                <article class="column one-third article">
    					<div class="rightal">
-<div class="title"><span class="remarcar">HTML5</span> and <span class="remarcar">CSS3</span></div>
+                    <div class="title"><span class="remarcar">Event</span> Three</div>
+
+                    <div class="separa"></div>
+                    <div class="imagen"><div class="new"></div><div class="hover"><a href="portfolio-view.html"><div class="link"></div></a></div><img src="css/img/img5.jpg" alt="img1"></div>
+                    <p><b>Lorem ipsum</b> dolor sit amet, consectetur adipiscing elit. Integer commodo tristique commodo tristique.</p>
+					</div>
+               </article>
+
+           </div>
+
+           <div class="moduls clearfix">
+
+               <article class="column one-third article activo">
+               		<div class="leftal" id="nipr">
+                    <div class="title"><span class="remarcar">Article</span> One</div>
+
+                    <div class="separa"></div>
+                    <div class="imagen"><div class="new"></div><div class="hover"><a href="portfolio-view.html"><div class="link"></div></a></div><img src="css/img/img6.jpg" alt="img1"></div>
+                    <p><b>Lorem ipsum</b> dolor sit amet, consectetur adipiscing elit. Integer commodo tristique commodo tristique.</p>
+                    </div>
+               </article>
+
+               <article class="column one-third article">
+	                <div class="cental">
+					<div class="title"><span class="remarcar">Article</span> Two</div>
+                    <div class="separa"></div>
+                    <div class="imagen"><div class="new"></div><div class="hover"><a href="portfolio-view.html"><div class="link"></div></a></div><img src="css/img/img4.jpg" alt="img1"></div>
+                    <p><b>Lorem ipsum</b> dolor sit amet, consectetur adipiscing elit. Integer commodo tristique commodo tristique.</p>
+                    </div>
+               </article>
+
+               <article class="column one-third article">
+   					<div class="rightal">
+                    <div class="title"><span class="remarcar">Article</span> Three</div>
 
                     <div class="separa"></div>
                     <div class="imagen"><div class="new"></div><div class="hover"><a href="portfolio-view.html"><div class="link"></div></a></div><img src="css/img/img5.jpg" alt="img1"></div>
@@ -320,7 +354,7 @@
 	                        <ul class="slides">
                             	<li>
 
-	<article>
+	                                <article>
                                         <img src="css/img/camara.png" alt="img"/>
                                         <h2>Pixel Perfect</h2>
 										<p>Integer libero lectus, porta <span class="azul_bold">acean pulvinar</span> ac, facilisis non arcu maecenas.</p>
@@ -350,7 +384,7 @@
                                     </article>
 								</li>
                             	<li>
-                        	<article>
+                        	        <article>
                                         <img src="css/img/camara.png" alt="img"/>
                                         <h2>Pixel Perfect</h2>
 										<p>Integer libero lectus, porta <span class="azul_bold">acean pulvinar</span> ac, facilisis non arcu maecenas.</p>
@@ -477,16 +511,16 @@
 
             <div class="container clearfix">
 
-                <p class="columns six telf"><img src="css/img/bocadillo.png" id="nimtm3" alt="img"/><span><strong>Call us!</strong> <span class="slim">+1 200 123 456</span></span></p>
+                <p class="columns six telf"><img src="css/img/bocadillo.png" id="nimtm3" alt="img"/><span><strong>+62 31</strong> <span class="slim">8480815</span></span></p>
 
                 <div class="columns three rrss ">
-                	<a href="#" class="twitter"></a>
-                    <a href="#" class="facebook"></a>
+                	<a href="#" class="facebook"></a>
+                    <a href="#" class="twitter"></a>
                 </div>
 
                 <div class="columns seven register">
                		<form action="#" method="post" id="register">
-                    	<input type="email" name="email" id="email" placeholder="Enter your email address"/>
+                    	<input type="email" name="email" id="email" placeholder="Berlangganan info terbaru"/>
                         <a href="#" class="button_register" title="Button Text" target="_self" ></a>
                     </form>
 
